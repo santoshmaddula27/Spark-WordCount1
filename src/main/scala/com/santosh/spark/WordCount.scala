@@ -18,7 +18,7 @@ object WordCount {
     val sample = wordCounts.take(20)
 
     for ((word, count) <- sample) {
-      println(word + "  " + count)
+      println(word + " test  " + count)
     }
 
     sc.stop()
